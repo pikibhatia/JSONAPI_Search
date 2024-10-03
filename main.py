@@ -99,8 +99,7 @@ def main():
             # Run the prompt and get the response
             response = qa(prompt)
             st.write ("Output:")
-            st.write(response["result"])
-            
+            st.write(response["result"])            
         else:
             st.error('Failed to retrieve data')
   
